@@ -15,8 +15,10 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
         else:
             name = req_body.get('name')
     
-    logging.info(name.isascii())
     logging.info(name)
+    logging.info(name.isascii())
+    logging.info(type(contenido))
+
     
     if name:
         return func.HttpResponse(f"Hello, {name}. This HTTP triggered function executed successfully.")
