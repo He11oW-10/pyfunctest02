@@ -17,7 +17,7 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
     
     logging.info(name)
     logging.info(name.isascii())
-    logging.info(type(contenido))
+    logging.info(type(name))
 
     
     if name:
