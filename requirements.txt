@@ -1,4 +1,4 @@
 # Do not include azure-functions-worker as it may conflict with the Azure Functions platform
 
 azure-functions
-psycopg2==2.9.3
+psycopg2-binary==2.9.3
