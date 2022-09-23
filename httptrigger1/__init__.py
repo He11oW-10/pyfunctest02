@@ -15,9 +15,6 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
         else:
             name = req_body.get('name')
     
-    logging.info(name)
-    logging.info(name.isascii())
-    logging.info(type(name))
 
     
     if name:
