@@ -65,6 +65,6 @@ jobs:
           app-name: 'EPfunc0523'
           slot-name: 'Production'
           package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_CA7F2E90C264476DBFE6DCFB72D82BE6 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A864620E8A864BF5B6830E244E524DA1 }}
           scm-do-build-during-deployment: true
           enable-oryx-build: true
